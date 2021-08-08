@@ -1,2 +1,1 @@
-# justduit
-Personal website
+# Personal Website
