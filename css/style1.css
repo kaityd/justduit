@@ -7,7 +7,6 @@ body, html {
   width: 100%;
   font-family: 'Open Sans', sans-serif;
   min-height: 100%;
-  scroll-behavior: smooth;
 }
 
 main {
@@ -67,7 +66,8 @@ label {
   background-image: linear-gradient(#DBF6F2, #ADA0D3);
   z-index: 2;
   transition: transform .5s ease-in-out;
-  overflow: scroll;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
 }
 
 /*.contentflex{
